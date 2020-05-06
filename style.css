@@ -1,0 +1,90 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-image: url("./images/background.jpeg");
+    background-size: cover;
+}
+
+.wrapper {
+    width: 75%;
+    margin: auto;
+}
+
+
+#nav {
+    background: rgba(27, 32, 33, 0.8);
+    padding: 10px;
+    width: auto;
+    white-space: nowrap;
+}
+
+#nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+
+#nav a {
+    color: #E3DC95;
+    text-transform: uppercase;
+    font-family: fantasy;
+    top: 0px;
+    margin: auto;
+}
+
+#nav a:hover {
+    color: orange;
+}
+
+.top {
+    background: rgba(27, 32, 33, 0.8);
+    padding: 1px;
+    color: orange;
+    text-align: center;
+}
+
+section {
+    background: rgba(27, 32, 33, 0.8);
+}
+
+p {
+    color: white;
+}
+
+.section-header {
+    color: #E3DC95;
+}
+
+a {
+    color: darkgrey;
+}
+
+a:hover {
+    color: grey;
+}
+
+.article-header {
+    color: rgb(168, 160, 141);
+}
+
+footer {
+    color: white;
+}
+
+.price {
+    color: red;
+}
+
+.img {
+    height: 150px;
+    width: auto;
+}
