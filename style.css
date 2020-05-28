@@ -1,90 +1,113 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    background-image: url("./images/background.jpeg");
-    background-size: cover;
+  margin: 0;
+  background-image: url("./images/background.jpeg");
+  background-size: cover;
 }
 
 .wrapper {
-    width: 75%;
-    margin: auto;
+  width: 75%;
+  margin: auto;
 }
 
-
-#nav {
-    background: rgba(27, 32, 33, 0.8);
-    padding: 10px;
-    width: auto;
-    white-space: nowrap;
+.navigation__menu {
+  background: rgba(27, 32, 33, 0.8);
+  padding: 10px;
+  width: auto;
+  white-space: nowrap;
 }
 
-#nav ul {
-    text-align: center;
-    margin: 0;
-    padding: 0;
+.navigation__menu ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-#nav ul li {
-    display: inline;
-    margin-left: 30px;
+.navigation__menu ul li {
+  display: inline;
+  margin-left: 30px;
 }
 
-
-#nav a {
-    color: #E3DC95;
-    text-transform: uppercase;
-    font-family: fantasy;
-    top: 0px;
-    margin: auto;
+.navigation__menu a {
+  color: #e3dc95;
+  text-transform: uppercase;
+  font-family: fantasy;
+  top: 0px;
+  margin: auto;
 }
 
-#nav a:hover {
-    color: orange;
+.navigation__menu a:hover {
+  color: orange;
 }
 
 .top {
-    background: rgba(27, 32, 33, 0.8);
-    padding: 1px;
-    color: orange;
-    text-align: center;
+  background: rgba(27, 32, 33, 0.8);
+  padding: 1px;
+  color: orange;
+  text-align: center;
 }
 
-section {
-    background: rgba(27, 32, 33, 0.8);
+.bikes {
+  background-color: rgba(28, 30, 31, 0.8);
 }
 
-p {
-    color: white;
+.bikes__header {
+  color: #e3dc95;
+  font-size: 20px;
 }
 
-.section-header {
-    color: #E3DC95;
+.bikes__bike-type {
+  color: rgb(168, 160, 141);
 }
 
-a {
-    color: darkgrey;
+.bikes__bike-description-header {
+  color: orange;
+}
+
+.bikes__bike-description {
+  color: plum;
+}
+
+.bikes__bike-price {
+  color: red;
+}
+
+.author {
+  background-color: rgba(28, 30, 31, 0.8);
+}
+
+.author__header {
+  color: red;
+}
+
+.author__about-header {
+  color: orange;
+}
+
+.author__description {
+  color: skyblue;
 }
 
 a:hover {
-    color: grey;
+  color: grey;
 }
 
-.article-header {
-    color: rgb(168, 160, 141);
-}
-
-footer {
-    color: white;
-}
-
-.price {
-    color: red;
+.footer {
+  color: white;
 }
 
 .img {
-    height: 150px;
-    width: auto;
+  height: 150px;
+  width: auto;
+}
+
+a {
+  color: darkgrey;
+}
+
+p {
+  color: white;
 }
